@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Form() {
   const [firstName, setFirstName] = useState("John");
   const [lastName, setLastName] = useState("Henry");
-
+//handling the event
   function handleFirstNameChange(event) {
     setFirstName(event.target.value);
   }
